@@ -44,7 +44,7 @@ body{
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }   
 .container .left_Side{
-
+    width: 300px;
     position: relative;
     background: #003147;
     padding:40px;
@@ -60,7 +60,8 @@ body{
 
 }
 .container .right_Side{
-
+    width: 650px;
+    margin-right: 60px;
     position: relative;
     background: #fff;
     padding:20px;
@@ -210,18 +211,21 @@ margin-top: 5px;
 
 margin-top: auto;
 
-padding-right:20px;
+padding-right:0px;
+margin-left: 25px;
 margin-bottom: 10px;
+
 
 
 }
 
     .nav{
-
+            width: 600px;
             display: flex;
             justify-content: space-between;
             max-width: 992px;
             margin: 0 auto;
+          
         }
         
         .nav-link{
@@ -233,11 +237,11 @@ margin-bottom: 10px;
         
         
         .nav-menu{
-            
+           
         display:flex;
         padding: 1px;
-        margin-left: 100px;
-        margin-bottom: 0px;
+        margin: 10px 0px 10px 70px;
+      
         list-style:none;
         
         
@@ -506,8 +510,10 @@ margin-bottom: 10px;
                 font-size: 22px;
                 color: black;
                 font-weight: 400;
-                margin-left: 5px;
+                margin-left: 40px;
             }
+
+       
       
         
 
